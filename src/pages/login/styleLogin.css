@@ -1,0 +1,163 @@
+.mainLogin{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    height: 100vh;
+    background-color: #363636;
+    font-family: monospace;
+    font-size: 15px;
+}
+
+.containerLogin{
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    justify-content: center;
+    /* border: 1px solid rgb(0,0,0); */
+    border-radius: 15px;
+    width: 70%;
+    height: 80%;
+    box-shadow: rgba(255, 255, 255, 0.1) 0px 1px 1px 0px inset, rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px;
+}
+
+.leftSide{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    width: 50%;
+    background-color: #fff;
+    border-radius:15px 0px 0px 15px;
+
+}
+
+.leftSide div{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    margin-bottom: 25px;
+    width: 100%;
+}
+
+.leftSide h2{
+    color: #55A38B;
+    font-size: 30px;
+}
+
+.leftSide input{
+    border: 0;
+    border-bottom: 1px solid #AAD1C5;
+    margin-bottom: 25px;
+    width: 80%;
+}
+
+.leftSide input:focus{
+    border-bottom: 2px solid #55A38B;
+    outline: none;
+}
+
+.leftSide button{
+    width: 95px;
+    height: 30px;
+    border: none;
+    background-color: #55A38B;
+    border-radius: 15px;
+    color: #fff;
+    font-weight: bolder;
+    font-size: 15px;
+}
+.leftSide button:hover{
+    background-color: #468673;
+    cursor: pointer;
+    font-size: 17px;
+    box-shadow: rgba(255, 255, 255, 0.1) 0px 1px 1px 0px inset, rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px;
+}
+
+.leftSide p {
+    cursor: pointer;
+    color: black;
+}
+
+.leftSide p:hover{
+    cursor: pointer;
+    color: #55A38B;
+}
+
+.rightSide{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color:#55A38B;
+    height: 100%;
+    width: 50%;
+    border-radius:0px 15px 15px 0px;
+}
+
+.rightSide img{
+    width: 100%;
+}
+
+.containerEnd{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    color: #fff;
+    text-align: center;
+}
+
+.containerEnd div{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 25%;
+}
+
+.containerEnd #logo{
+    animation: roll 3s linear infinite;
+}
+
+
+@media screen and (max-width: 815px){
+    .leftSide h2{
+        font-size: 25px;
+    }
+    .leftSide p {
+        font-size: 12px;
+    }
+    .containerEnd{
+        font-size: 10px;
+    }
+}
+
+@media screen and (min-height: 1185px){
+    .leftSide input{
+        border-bottom: 2px solid #AAD1C5;
+        margin-bottom: 25px;
+        width: 80%;
+    }
+    .leftSide{
+        width: 100%;
+        border-radius: 10px;
+    }
+    .rightSide{
+        width: 0;
+    }
+    .rightSide img{
+        width: 0;
+    }
+}
+
+/* @media screen and (min-width: 680px){
+    .leftSide{
+        width: 100%;
+        border-radius: 10px;
+    }
+    .rightSide{
+        width: 0;
+    }
+    .rightSide img{
+        width: 0;
+    }
+} */
