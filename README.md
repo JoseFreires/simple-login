@@ -2,6 +2,7 @@
 
 <p align="justify"> 
 Um projeto criado com o intuito de praticar a lógica e a aparência de uma página de Login.
+Ele utiliza o LocalStorage e em sua página principal tem um gerador de números aleatórios.
 </p>
 
 ## Conteúdo:
@@ -12,7 +13,7 @@ Um projeto criado com o intuito de praticar a lógica e a aparência de uma pág
  <a href="#pré-requisitos">Pré-Requisitos</a> •
  <a href="#rodando-a-aplicação">Rodando a Aplicação</a> •
  <a href="#tecnologias">Tecnologias</a> • 
- <a href="#libraries">Bibliotecas</a> • 
+ <a href="#bibliotecas">Bibliotecas</a> • 
  <a href="#autor">Autor</a>
 </p>
 
@@ -21,9 +22,16 @@ Um projeto criado com o intuito de praticar a lógica e a aparência de uma pág
 </h4>
 
 # Imagens do Projeto:
+
 ## Login
+<img src='https://github.com/JoseFreires/simple-login/assets/88195769/4c8685f6-d800-49b1-bc85-f547cbfedf0d' />
+
 ## Register
+<img src='https://github.com/JoseFreires/simple-login/assets/88195769/f6939a3f-edaa-4044-bfc7-e574638144bf' />
+
 ## Home
+![image](https://github.com/JoseFreires/simple-login/assets/88195769/497ec3b6-2087-4490-93eb-dbedb0d78a7b)
+
 
 # Features
 
@@ -46,7 +54,7 @@ As seguintes ferramentas foram usadas na construção do projeto:
 - [Node.js](https://nodejs.org/en/)
 - [React](https://pt-br.reactjs.org/)
 
-## Bibliotecas Utilizadas
+## Bibliotecas
 - [react-dom-router@6](https://reactrouter.com/docs/en/v6/getting-started/overview)
 - [react-icons](https://react-icons.github.io/react-icons)
 
