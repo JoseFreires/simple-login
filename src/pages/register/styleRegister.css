@@ -4,7 +4,6 @@
     flex-direction: column;
     justify-content: center;
     height: 100vh;
-    /* background-color: #e9e9e9; */
     background-color: #363636;
     font-family: monospace;
     font-size: 15px;
@@ -15,7 +14,6 @@
     align-items: center;
     flex-direction: row;
     justify-content: center;
-    /* border: 1px solid rgb(0,0,0); */
     border-radius: 15px;
     width: 70%;
     height: 80%;
@@ -127,7 +125,7 @@
 
 @media screen and (max-width: 1200px) {
     .containerRegister{
-        height: 50%;
+        height: 60%;
     }
     
 }
@@ -143,5 +141,26 @@
     }
     .rightSideRegister{
         width: 0;
+    }
+}
+
+@media screen and (max-width: 650px){
+    .leftSideRegister h2{
+        font-size: 25px;
+    }
+    .leftSideRegister p{
+        font-size: 15px;
+    }
+}
+
+@media screen and (max-width: 500px){
+    .leftSideRegister p{
+        font-size: 10px;
+    }
+}
+
+@media screen and (max-width: 350px){
+    .leftSideRegister h2{
+        font-size: 20px;
     }
 }
