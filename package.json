@@ -36,5 +36,9 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
-  }
+  },
+  "description": "<p align=\"justify\">  Um projeto criado com o intuito de praticar a lógica e a aparência de uma página de Login. </p>",
+  "main": "index.js",
+  "author": "",
+  "license": "ISC"
 }

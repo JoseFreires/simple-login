@@ -13,7 +13,6 @@
     align-items: center;
     flex-direction: row;
     justify-content: center;
-    /* border: 1px solid rgb(0,0,0); */
     border-radius: 15px;
     width: 70%;
     height: 80%;
@@ -106,6 +105,7 @@
     flex-direction: column;
     color: #fff;
     text-align: center;
+    
 }
 
 .containerEnd div{
@@ -119,46 +119,22 @@
     animation: roll 3s linear infinite;
 }
 
-
-@media screen and (max-width: 815px){
-    .leftSide h2{
-        font-size: 25px;
-    }
-    .leftSide p {
-        font-size: 12px;
-    }
-    .containerEnd{
-        font-size: 10px;
+@media screen and (max-width: 1200px){
+    .containerLogin{
+        height: 50%;
     }
 }
 
-@media screen and (min-height: 1185px){
-    .leftSide input{
-        border-bottom: 2px solid #AAD1C5;
-        margin-bottom: 25px;
-        width: 80%;
-    }
-    .leftSide{
-        width: 100%;
-        border-radius: 10px;
-    }
+@media screen and (max-width: 900px){
     .rightSide{
         width: 0;
     }
-    .rightSide img{
-        width: 0;
+    .leftSide{
+        width: 100%;
+        border-radius: 15px;
+    }
+    .leftSide h2 {
+        font-size: 40px;
     }
 }
 
-/* @media screen and (min-width: 680px){
-    .leftSide{
-        width: 100%;
-        border-radius: 10px;
-    }
-    .rightSide{
-        width: 0;
-    }
-    .rightSide img{
-        width: 0;
-    }
-} */
