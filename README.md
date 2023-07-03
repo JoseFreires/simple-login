@@ -22,8 +22,17 @@ Um projeto criado com o intuito de praticar a lógica e a aparência de uma pág
 
 # Imagens do Projeto:
 ## Login
+
+![image](https://github.com/JoseFreires/simple-login/assets/88195769/e3340412-e480-4b1c-8d32-3889610f1fd1)
+
 ## Register
+
+![image](https://github.com/JoseFreires/simple-login/assets/88195769/418b4728-70df-4f48-82fd-de43c12770d2)
+
 ## Home
+
+![image](https://github.com/JoseFreires/simple-login/assets/88195769/b3bdad39-0190-4317-b4ca-c7716d5eab36)
+
 
 # Features
 
